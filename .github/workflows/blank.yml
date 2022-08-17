@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: "Confirmation of environment"
+      - name: "Run counter.sh to count dates"
         run: | 
           echo "$SHELL"
           sh ./counter.sh
