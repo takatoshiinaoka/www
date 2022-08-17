@@ -1,8 +1,6 @@
 name: www
 
-# Controls when the workflow will run
 on:
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   
   schedule:
@@ -14,9 +12,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
-      - name: Run a one-line script
-        run: echo Hello, world!
 
       - name: Run a　generate www
         run: |
