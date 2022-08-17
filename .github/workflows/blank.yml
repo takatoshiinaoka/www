@@ -18,7 +18,7 @@ jobs:
           echo "$SHELL"
           sh ./counter.sh
 
-      - name: "Run a　generate www"
+      - name: "Run a generate www"
         run: |
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git config --global user.name ${{ secrets.USER_NAME }}
