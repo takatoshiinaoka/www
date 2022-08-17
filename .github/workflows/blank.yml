@@ -12,6 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      
+      - name: hoge 
+        run: vi --version 
 
       - name: Run a　generate www
         run: |
