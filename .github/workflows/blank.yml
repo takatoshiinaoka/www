@@ -16,6 +16,7 @@ jobs:
       - name: "Confirmation of environment"
         run: | 
           echo "$SHELL"
+          sh ./counter.sh
 
       - name: "Run a　generate www"
         run: |
