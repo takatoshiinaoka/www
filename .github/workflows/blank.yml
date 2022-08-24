@@ -15,6 +15,7 @@ jobs:
       
       - name: "Run counter.sh to count dates"
         run: | 
+          echo "$(date)"
           echo "$SHELL"
           sh ./counter.sh
 
