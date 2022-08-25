@@ -15,7 +15,7 @@ jobs:
       
       - name: "Run counter.sh to count dates"
         run: | 
-          echo "$(date)"
+          echo "$(TZ=JST-9 date)"
           echo "$SHELL"
           sh ./counter.sh
 
